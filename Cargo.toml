@@ -1,0 +1,13 @@
+[package]
+name = "chat_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix = "0.13.3"
+actix-web = { version = "4.2.1", features = ["rustls-0_21"] }
+actix-web-actors = "4.3.0"
+dotenv = "0.15.0"
+mongodb = "2.8.2"
+serde = "1.0.203"
+tokio = "1.37.0"
